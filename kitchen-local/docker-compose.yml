@@ -1,7 +1,7 @@
 
 services:
   mongodb:
-    image: bitnami/mongodb:7.0
+    image: soldevelo/mongodb:7.0
     container_name: mongodb
     restart: always
     ports:
